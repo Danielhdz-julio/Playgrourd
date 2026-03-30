@@ -1,4 +1,33 @@
-# Proyecto QA listo – Playwright
+Proyecto de automatización QA enfocado en validar flujos funcionales clave de una aplicación web y endpoints API, utilizando Playwright bajo una arquitectura basada en Page Object Model (POM).
+
+Se diseñaron y ejecutaron pruebas tanto de interfaz de usuario (UI) como de servicios (API), cubriendo escenarios positivos y negativos para asegurar el comportamiento correcto del sistema.
+
+🧩 Qué se hizo
+Análisis de flujos principales (login y consumo de API)
+Diseño de casos de prueba funcionales
+Implementación de pruebas automatizadas UI
+Validación de endpoints API (status, estructura y datos)
+Uso de datos de prueba separados para mayor mantenibilidad
+Generación de evidencia mediante reportes HTML
+🧪 Cobertura de pruebas
+UI
+Login exitoso
+Login con credenciales inválidas
+API
+Consulta de lista de usuarios
+Consulta de usuario por ID
+🛠️ Tecnologías
+Playwright
+JavaScript
+Node.js
+🎯 Objetivo
+
+Demostrar habilidades base en QA Automation, incluyendo:
+
+validación funcional
+estructuración de pruebas
+ejecución automatizada
+generación de evidencia
 
 - Pruebas UI
 - Pruebas API
@@ -72,11 +101,6 @@ qa-playwright-starter/
 - Consulta de lista de usuarios
 - Consulta de usuario por ID
 
-## Buenas prácticas incluidas
 
-- Page Object Model
-- Datos de prueba separados
-- Casos positivos y negativos
-- Assertions claras
 
 
