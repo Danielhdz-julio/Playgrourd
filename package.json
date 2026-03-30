@@ -1,0 +1,19 @@
+{
+  "name": "qa-playwright-starter",
+  "version": "1.0.0",
+  "description": "Proyecto QA listo con Playwright: UI + API + Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": ["qa", "playwright", "testing", "automation"],
+  "author": "OpenAI",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
